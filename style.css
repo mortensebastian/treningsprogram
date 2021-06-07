@@ -1,0 +1,67 @@
+.box {
+    font-family: "MaisonNeue", "Segoe UI", "Helvetica Neue", -apple-system,
+    system-ui, BlinkMacSystemFont, Roboto, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: inherit;
+  font-size: 18px;
+  line-height: 140%;
+  width: 75%;
+  padding: 10px;
+  align: margin-left;
+  border: 2px solid gray;
+  margin: 10;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  
+}
+
+header {    
+  margin: 0 auto
+}
+
+.earlyq {
+    float: left;
+    width: 20%;
+    margin-bottom: 40px;
+}
+    float: left;
+    width: 20%;
+    margin-bottom: 40px;
+}
+.earlyqt {
+    float: inherit;
+    width: 20%;
+}
+
+td {
+    padding-right: 10px;;
+}
+th {
+    column-span: 2;
+
+}
+
+.box td {
+    color: #737373;
+}
+
+.box :hover, .box :focus {
+    font-weight: bolder;
+}
+
+p::first-letter {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+::selection {
+    background-color: darkmagenta;
+}
+
+p::after {
+    content: '...';
+    display: block;
+}

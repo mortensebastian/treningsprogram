@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,600" rel="stylesheet" type="text/css">
+    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <title>Dice and Monsters</title>
+</head>
+
+
+<body>
+    <h1>Dice and Monsters</h1>
+
+
+
+    <label for="">Choose a race:</label>
+    <select id="race">
+        <option value="Goblin">Goblin</option>
+        <option value="Drow">Drow</option>
+        <option value="Bugbear">Bugbear</option>
+
+    </select>
+
+
+    <button class="btn-create"><i class=""></i>Create Monster</button>
+
+
+    <div class="monsters">
+        <h2 class="monsters__title">Monsters</h2>
+
+        <div class="monster__list">
+
+
+            <div class="item clearfix" id="%monster-0%">
+                <div class="monster__description">%monster%</div>
+                <div class="right clearfix">
+                    <div class="monster__hp">HP: %10%</div>
+                    <div class="item__ac">AC: %12%</div>
+                    <div class="item__melee">Melee attack bonus to hit: %2%</div>
+                    <div class="item__meleeDMG">Melee attack dmg dice: %3%</div>
+                    <div class="item__range">Range attack to hit: %4%</div>
+                    <div class="item__rangeDMG">Range attack dmg dice: %5%</div>
+                    <div class="item__delete"><button class="item__delete--btn"><i
+                                class="ion-ios-close-outline"></i></button>
+                    </div>
+                    <div class="item__attack"><button class="btn-melee"></i>Melee Attack</button><button
+                            class="btn-ranged"></i>Ranged Attack</button><button class="item__delete--btn"><i
+                                class="ion-ios-close-outline"></i></button>
+                        <div class="hit" id="hit"></div>
+                        <div class="dmg" id="dmg"></div>
+                    </div>
+                </div>
+            </div>
